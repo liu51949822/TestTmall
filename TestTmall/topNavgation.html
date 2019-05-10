@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>使用基础全家桶-置顶导航栏-这不是天猫</title>
+		<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+		<script src="js/pluy/bootstrap/bootstrap.min.js"></script>
+		<script src="js/pluy/jquery/jquery.min.js"></script>
+		<style>
+			body{
+				font-size: 12px;
+				font-family: arial;
+				/* display:flex ; */
+		/* 		justify-content: flex-start; */
+			}
+			a{
+				color: #999999;
+			}
+			.redColor{
+				color: #C7254E !important;
+			}
+			nav.top{
+				background: #F9F2F4;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				border-bottom: 1px solid #E7E7E7;
+			}
+			nav.top span,nav.top a{
+				color: #999999;
+				margin: 0px 10px 0px 10px;
+				
+			}
+			nav.top a:hover{
+				color: #C4E3F3;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<nav class="top">
+		<a href="#nowhere">
+			<span class="glyphicon  glyphicon-home  redColor"></span>
+			天猫首页
+		</a>
+		
+		<span>12345上山打老虎</span>
+		<a href="#nowhere">登录</a>
+		<a href="#nowhere">注册</a>
+		
+		<span class="pull-right">
+			<a href="#nowhere">我的订单</a>
+			<a href="#nowhere"><span class="glyphicon glyphicon-shopping-cart  redColor"></span>
+			购物车<strong>0</strong>件</a>
+		</span>
+	</nav>
+
